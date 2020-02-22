@@ -1,4 +1,5 @@
-﻿using System;
+// Primera version con atributos en public
+using System;
 
 namespace Peliculas
 {
