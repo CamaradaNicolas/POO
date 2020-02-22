@@ -1,4 +1,4 @@
-// segunda version ahora utilizando los atributos en privado y utilizando el metodo this.
+// Tercera version con atributos en privado, y utilizando dos constructores, y el metodo Imprime.
 using System;
 
 namespace Peliculas
@@ -9,7 +9,18 @@ namespace Peliculas
     private int Año;
     private string Pais;
     private string Director;
+    public Pelicula (string Titulo , int Año)
+    {
+        this.Titulo = Titulo;
+        this.Año = Año ;
+    }
+    public void Imprime ()
+    {
+        Console.WriteLine(Titulo);
+        Console.WriteLine(Año);
+    }
     public void setTitulo (string n)
+    
     {
         this.Titulo = n ;
        
@@ -31,15 +42,12 @@ namespace Peliculas
     {
         static void Main(string[] args)
         {
-            Pelicula P1 = new Pelicula () ;
-            Pelicula P2 = new Pelicula ();
-            P1.setTitulo("La forma del agua.");
-            P2.setTitulo("El señor de los anillos.");
-            P1.setAño(2013);
-            P2.setAño(2003);
+            Pelicula P1 = new Pelicula ("La forma del agua", 2013) ;
+            Pelicula P2 = new Pelicula ("El señor de los anillos", 2003);
+           
+            P1.Imprime();
+            P2.Imprime();
             
-            Console.WriteLine ("{0} ({1})",P1.getTitulo(),P1.getAño());
-            Console.WriteLine ("{0} ({1})",P2.getTitulo(),P2.getAño());
 
         }
     }
