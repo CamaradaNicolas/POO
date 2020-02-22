@@ -1,25 +1,26 @@
-// Primera version con atributos en public
+// segunda version ahora utilizando los atributos en privado y utilizando el metodo this.
 using System;
 
 namespace Peliculas
 {
     class Pelicula
     {
-    public string Titulo;
-    public int Año;
-    public string Pais;
-    public string Director;
+    private string Titulo;
+    private int Año;
+    private string Pais;
+    private string Director;
     public void setTitulo (string n)
     {
-        Titulo = n;
-    }
+        this.Titulo = n ;
+       
+    } 
     public string getTitulo ()
     {
         return Titulo;
     }
     public void setAño(int x)
     {
-       Año = x;
+       this.Año = x ;
     }
     public int getAño ()
     {
@@ -30,12 +31,13 @@ namespace Peliculas
     {
         static void Main(string[] args)
         {
-            Pelicula P1 = new Pelicula ();
-            Pelicula P2 = new Pelicula();
-            P1.setTitulo("La forma del agua");
-            P1.setAño(2017);
-            P2.setTitulo("El señor de los anillos");
+            Pelicula P1 = new Pelicula () ;
+            Pelicula P2 = new Pelicula ();
+            P1.setTitulo("La forma del agua.");
+            P2.setTitulo("El señor de los anillos.");
+            P1.setAño(2013);
             P2.setAño(2003);
+            
             Console.WriteLine ("{0} ({1})",P1.getTitulo(),P1.getAño());
             Console.WriteLine ("{0} ({1})",P2.getTitulo(),P2.getAño());
 
