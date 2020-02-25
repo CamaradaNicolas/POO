@@ -1,0 +1,11 @@
+C:\Users\hp\POO\POO\ListaPeliculas\bin\Debug\netcoreapp3.1\ListaPeliculas.exe
+C:\Users\hp\POO\POO\ListaPeliculas\bin\Debug\netcoreapp3.1\ListaPeliculas.deps.json
+C:\Users\hp\POO\POO\ListaPeliculas\bin\Debug\netcoreapp3.1\ListaPeliculas.runtimeconfig.json
+C:\Users\hp\POO\POO\ListaPeliculas\bin\Debug\netcoreapp3.1\ListaPeliculas.runtimeconfig.dev.json
+C:\Users\hp\POO\POO\ListaPeliculas\bin\Debug\netcoreapp3.1\ListaPeliculas.dll
+C:\Users\hp\POO\POO\ListaPeliculas\bin\Debug\netcoreapp3.1\ListaPeliculas.pdb
+C:\Users\hp\POO\POO\ListaPeliculas\obj\Debug\netcoreapp3.1\ListaPeliculas.csprojAssemblyReference.cache
+C:\Users\hp\POO\POO\ListaPeliculas\obj\Debug\netcoreapp3.1\ListaPeliculas.AssemblyInfoInputs.cache
+C:\Users\hp\POO\POO\ListaPeliculas\obj\Debug\netcoreapp3.1\ListaPeliculas.AssemblyInfo.cs
+C:\Users\hp\POO\POO\ListaPeliculas\obj\Debug\netcoreapp3.1\ListaPeliculas.dll
+C:\Users\hp\POO\POO\ListaPeliculas\obj\Debug\netcoreapp3.1\ListaPeliculas.pdb
