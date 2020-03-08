@@ -9,4 +9,7 @@
 
 [Lista de Peliculas](https://github.com/CamaradaNicolas/POO/blob/master/ListaPeliculas/Program.cs)
 
+[Actores](https://github.com/CamaradaNicolas/POO/blob/master/Actores/Program.cs)
+
+
 
