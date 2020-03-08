@@ -1,0 +1,11 @@
+C:\Users\hp\POO\POO\Actores\bin\Debug\netcoreapp3.1\Actores.exe
+C:\Users\hp\POO\POO\Actores\bin\Debug\netcoreapp3.1\Actores.deps.json
+C:\Users\hp\POO\POO\Actores\bin\Debug\netcoreapp3.1\Actores.runtimeconfig.json
+C:\Users\hp\POO\POO\Actores\bin\Debug\netcoreapp3.1\Actores.runtimeconfig.dev.json
+C:\Users\hp\POO\POO\Actores\bin\Debug\netcoreapp3.1\Actores.dll
+C:\Users\hp\POO\POO\Actores\bin\Debug\netcoreapp3.1\Actores.pdb
+C:\Users\hp\POO\POO\Actores\obj\Debug\netcoreapp3.1\Actores.csprojAssemblyReference.cache
+C:\Users\hp\POO\POO\Actores\obj\Debug\netcoreapp3.1\Actores.AssemblyInfoInputs.cache
+C:\Users\hp\POO\POO\Actores\obj\Debug\netcoreapp3.1\Actores.AssemblyInfo.cs
+C:\Users\hp\POO\POO\Actores\obj\Debug\netcoreapp3.1\Actores.dll
+C:\Users\hp\POO\POO\Actores\obj\Debug\netcoreapp3.1\Actores.pdb
