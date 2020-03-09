@@ -11,5 +11,9 @@
 
 [Actores](https://github.com/CamaradaNicolas/POO/blob/master/Actores/Program.cs)
 
+[Ejercicio UML 1](https://github.com/CamaradaNicolas/POO/blob/master/UML%201.png)
+
+[Ejercicio UML 2](https://github.com/CamaradaNicolas/POO/blob/master/UML%202.png)
+
 
 
