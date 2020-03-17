@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace parametros
 {
@@ -44,34 +44,34 @@ namespace parametros
             u.Nombre = "Usuario";
             u.Contraseña ="Contraseña";
         }
-        static void Main()
-        {
-            Usuario Per = new Usuario();
-            Console.WriteLine(Per.Nombre);
-            Console.WriteLine(Per.Contraseña);
-            Censura(Per);
-            Console.WriteLine(Per.Contraseña);
-            Cambia(ref Per);
-            Console.WriteLine(Per.Nombre);
-            Cambia(ref Per);
-            Console.WriteLine(Per.Contraseña);
-        }
-    }
-    
-    //class Program
-    //{
         //static void Main()
         //{
-            //Valor p = new Valor();
-            //int a = 2;int b = 2;int c = 2; int d =2; 
-            //p.SumaUno(ref a);
-            //p.RestaUno(ref b);
-            //p.Multi2(ref c);
-            //p.Divi2(ref d);
-            //Console.WriteLine(a);
-            //Console.WriteLine(b);
-            //Console.WriteLine(c);
-            //Console.WriteLine(d);            
+            //Usuario Per = new Usuario();
+            //Console.WriteLine(Per.Nombre);
+            //Console.WriteLine(Per.Contraseña);
+            //Censura(Per);
+            //Console.WriteLine(Per.Contraseña);
+            //Cambia(ref Per);
+            //Console.WriteLine(Per.Nombre);
+            //Cambia(ref Per);
+            //Console.WriteLine(Per.Contraseña);
         //}
-    //}
+    }
+    
+    class Program
+    {
+        static void Main()
+        {
+            Valor p = new Valor();
+            int a = 2;int b = 2;int c = 2; int d =2; 
+            p.SumaUno(ref a);
+            p.RestaUno(ref b);
+            p.Multi2(ref c);
+            p.Divi2(ref d);
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);            
+        }
+    }
 }
