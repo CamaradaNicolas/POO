@@ -1,0 +1,11 @@
+C:\Users\hp\POO\POO\parametros\obj\Debug\netcoreapp3.1\parametros.csprojAssemblyReference.cache
+C:\Users\hp\POO\POO\parametros\obj\Debug\netcoreapp3.1\parametros.AssemblyInfoInputs.cache
+C:\Users\hp\POO\POO\parametros\obj\Debug\netcoreapp3.1\parametros.AssemblyInfo.cs
+C:\Users\hp\POO\POO\parametros\bin\Debug\netcoreapp3.1\parametros.exe
+C:\Users\hp\POO\POO\parametros\bin\Debug\netcoreapp3.1\parametros.deps.json
+C:\Users\hp\POO\POO\parametros\bin\Debug\netcoreapp3.1\parametros.runtimeconfig.json
+C:\Users\hp\POO\POO\parametros\bin\Debug\netcoreapp3.1\parametros.runtimeconfig.dev.json
+C:\Users\hp\POO\POO\parametros\bin\Debug\netcoreapp3.1\parametros.dll
+C:\Users\hp\POO\POO\parametros\bin\Debug\netcoreapp3.1\parametros.pdb
+C:\Users\hp\POO\POO\parametros\obj\Debug\netcoreapp3.1\parametros.dll
+C:\Users\hp\POO\POO\parametros\obj\Debug\netcoreapp3.1\parametros.pdb
