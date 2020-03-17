@@ -4,19 +4,19 @@ namespace parametros
 {
     class Valor
     {
-      public void Multi2 (ref int n)
+      public void Multi2 (in int n)
       {
           n=n*2;
       }
-      public void SumaUno (ref int n)
+      public void SumaUno (in int n)
       {
           n=n+1;
       }
-      public void RestaUno (ref int n)
+      public void RestaUno (in int n)
       {
           n=n-1;
       }
-      public void Divi2 (ref int n)
+      public void Divi2 (in int n)
       {
           n=n/2;
       }
@@ -38,7 +38,7 @@ namespace parametros
             u.Nombre = "xxxxxxxxxx";
             u.Contraseña = "xxxxxxxxx";
         }
-        static public void Cambia(ref Usuario u)
+        static public void Cambia(Usuario u)
         {
             u = new Usuario();
             u.Nombre = "Usuario";
@@ -64,10 +64,10 @@ namespace parametros
         {
             Valor p = new Valor();
             int a = 2;int b = 2;int c = 2; int d =2; 
-            p.SumaUno(ref a);
-            p.RestaUno(ref b);
-            p.Multi2(ref c);
-            p.Divi2(ref d);
+            p.SumaUno(in a); //Error "No se puede asignar a variable 'in int'por que es una variable ReadOnly."
+            p.RestaUno(in b); //Error "No se puede asignar a variable 'in int'por que es una variable ReadOnly."
+            p.Multi2(in c); //Error "No se puede asignar a variable 'in int'por que es una variable ReadOnly."
+            p.Divi2(in d); //Error "No se puede asignar a variable 'in int'por que es una variable ReadOnly."
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
